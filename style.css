@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* ===========navigation bar============ */
+
+.navtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    
+
+}
+
+
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.navelements {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    gap: 90px;
+}
+
+.search {
+    height: 15px;
+    width: 270px;
+}
+
+.login {
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: hsla(218, 88%, 56%, 0.727);
+    box-shadow: black 8px;
+
+}
+
+/* ==============rest of page============== */
+
+
+.entirepage{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.ninja1 {
+    border: 3px solid black;
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.addbox{
+    width: 200px;
+    height: 160px;
+    border: 2px black solid;
+    margin-top: 20px;
+}
+
+.likes{
+    background-color: yellow;
+    color: black;
+    margin-top: 30px;
+    height: 25px;
+    width: 60px;
+    border: 2px black solid;
+    box-shadow: 2px 2px  2px black;
+}
+
+.addefinition{
+    margin: 30px;
+    border: 2px black solid;
+    box-shadow: 2px 2px  2px black;
+    background-color:rgb(57, 172, 57);
+}
+.leftsideofbox{
+    justify-content:space-between;
+    align-items: center;
+}
